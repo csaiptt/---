@@ -8,6 +8,7 @@ const menu = ["𝐭𝐨𝐝𝐚𝐲 𝐦𝐞𝐧𝐮 : Somtum 🌶","𝐭𝐨�
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
+  console.log(msg.content);
 });
 
 client.on('interactionCreate', async interaction => {
